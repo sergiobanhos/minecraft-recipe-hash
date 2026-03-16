@@ -1,0 +1,6 @@
+wood
+iron
+diamond
+stick
+stone
+none

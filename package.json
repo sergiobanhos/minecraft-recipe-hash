@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "bun src/lib/recipes.ts",
+    "generate": "bun src/lib/generator.ts",
+    "craft": "bun src/lib/craft.ts"
   },
   "dependencies": {
     "next": "16.1.6",
