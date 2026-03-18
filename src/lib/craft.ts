@@ -1,6 +1,6 @@
 import { readFileSync, existsSync } from 'fs';
 import { join } from 'path';
-import { StaticHashIndex } from './hash';
+import { StaticHashIndex } from './engine/hash';
 
 const recipesFilePath = join(__dirname, 'recipes.txt');
 const recipeToCraft = process.argv[2];
